@@ -5,6 +5,10 @@
 - kaggle : https://www.kaggle.com/competitions/home-credit-default-risk/overview
 
 ## 数据介绍：
-- 本项目主要使用两个数据包，application_train & application_test
+- 本项目主要使用两个数据集，application_train & application_test （来自home_credit）
 - 其中包含关于每个贷款申请的信息，每笔贷款都有自己的行，并有独立的SK_ID_CURR标识
 - test数据带有target，0表示：贷款已偿还，1表示：贷款未偿还
+
+## 补充数据集：
+- 在两个训练集与测试集的数据基础上，增添了信用局信息与历史贷款信息的两个数据集
+- 通过两个额外的数据集再进行预测 （来自bureau）
